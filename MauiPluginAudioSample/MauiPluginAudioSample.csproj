@@ -48,4 +48,8 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <PackageReference Include="Plugin.Maui.Audio" Version="0.1.0-preview1" />
+	</ItemGroup>
+
 </Project>
